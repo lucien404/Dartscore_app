@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01901F24ABE5C87BAF86E7BDDE87272D /* ConstraintsSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F9EC3820854C8AC739576251BAEF0C /* ConstraintsSetup.swift */; };
+		0AA61FFFE1A88E9CE96ED1D316D3B446 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1856828A09E42089E0DF02773D80C1 /* AssetManager.swift */; };
+		0EE9CB45A95D2CB62A368EC0C02BE5BD /* ButtonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8EA3E374AABCC8787656D13A964976 /* ButtonPicker.swift */; };
+		15DB84AB7D4306D3FE8263EDB8715EAF /* CameraMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3000EB55BAE1962CEBA308ABA13AD6 /* CameraMan.swift */; };
+		1BBD42E84E62842B6EA186CEF24BBF45 /* ImagePicker-ImagePicker in Resources */ = {isa = PBXBuildFile; fileRef = 97AA160F23F0CBEDDAF212103E762FC7 /* ImagePicker-ImagePicker */; };
+		1E0C28B8FF0B169C2BF5B6F4728AA0A3 /* BottomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45FBD832567255AC60672C32C49335 /* BottomContainerView.swift */; };
+		23983ACEF40E1039054D6D5206A70AD7 /* ImageGalleryViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643B3127CD8E47ED653DE487FE25E474 /* ImageGalleryViewDataSource.swift */; };
+		3C55AFF31F06CCCA9302ACB57A2DD0C1 /* ImageStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC8C72086DD71EFA1CE2500C3CB4CA /* ImageStack.swift */; };
+		466EAEA5D0D31E859164CA7B806507B1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3FBD59FAEA5FE64585B08AFFBA2218 /* LocationManager.swift */; };
+		4A507E8E144332BA98AC1985E4BCD3FD /* Pods-ImagePickerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5358AB43A42BF0F90AA3EFFF88C87C28 /* Pods-ImagePickerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AA545CAC011A808D6A89143007A1E44 /* ImageGalleryLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4659FE8BAF4211D78BB97B62909622 /* ImageGalleryLayout.swift */; };
+		6FAC30B176A420D525F3CC5007A48556 /* Pods-ImagePickerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B146953827F8F553766FAA9D70B307F /* Pods-ImagePickerDemo-dummy.m */; };
+		743ED1DCEC16DC2E7FAD8FBDD276EC8F /* ImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC0C7937C3AA3DD163D91E1C8B803D8 /* ImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E06B456E6E0017A3EE89D98B22A4CEA /* VideoInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCC3C25753B7D458D99D3BB7A5251F0 /* VideoInfoView.swift */; };
+		92FCB8BA4AFE236E61D7474B91F67FD4 /* ImageGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6945B740CCA919BED27FFD94974EB8 /* ImageGalleryView.swift */; };
+		A0A879D869577FD8B182D89C6678118A /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F176345388B30294FC3B1F8F9531F24 /* TopView.swift */; };
+		A9FF2B21981C770D9F67307EFD7D54E8 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6624FF51D5F1B7F3036ED4E16E4ACF1 /* StackView.swift */; };
+		B0295E6AE6291794C0D57259F53D0DAC /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A6249CAECF8431742279BF02A1DB1A /* CameraView.swift */; };
+		BD0139B5F1C96514CB66C4310AAF1DF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2689EA712E5D78CDDF35E7B1BD8994B6 /* AVFoundation.framework */; };
+		CA7715573551119FF5443A5FA8F4B07E /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723483CA9E428D7C33C1B1D4878C43B /* ImagePickerController.swift */; };
+		CB2FB2DD37B3AA49204E7F15D1CC5C29 /* ImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40420449021130378644713626482885 /* ImagePicker-dummy.m */; };
+		CE2F10B4F20D68D68F1790002F9E889B /* ImageGalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF2E749B485D4F0F1C25544671F801 /* ImageGalleryViewCell.swift */; };
+		D4BB4D928CB44E6CE753BEA14E5AC918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */; };
+		DAC5DC6A70DC35A0C4C3DFA5FF6A8E52 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D63F6AE5B937F175302626EF38CFD2 /* Helper.swift */; };
+		ECCA9AB7DEB6BE2EA4FF24F5F55FA4DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */; };
+		F8F5C023314B31AEC3EB64BA4B281F85 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F82B7165506D9405463C8A50EDFA3E /* Configuration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77C77A85FB5CDFAC9C6C01C9DDA5B011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614D1818852890AC7D3CDF68D512C370;
+			remoteInfo = "ImagePicker-ImagePicker";
+		};
+		F53A16D5CC05D35156BB7A7DDACF7EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CB8D6098C21E12CE735619344DE81E;
+			remoteInfo = ImagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E89321E9E3E76A5BDCB593C63DEC71 /* ImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImagePicker.modulemap; sourceTree = "<group>"; };
+		1046E6CCAA1573A1AFC51DBEDA04166A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		21D63F6AE5B937F175302626EF38CFD2 /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Source/Helper.swift; sourceTree = "<group>"; };
+		2689EA712E5D78CDDF35E7B1BD8994B6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2C6945B740CCA919BED27FFD94974EB8 /* ImageGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageGalleryView.swift; sourceTree = "<group>"; };
+		2C8EA3E374AABCC8787656D13A964976 /* ButtonPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonPicker.swift; sourceTree = "<group>"; };
+		33471595B2BFAC8EF18955DAC46AE969 /* Pods-ImagePickerDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ImagePickerDemo"; path = Pods_ImagePickerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3901980FC7AB9B6A97B729ADFC1CFCC5 /* ImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImagePicker-Info.plist"; sourceTree = "<group>"; };
+		3B4659FE8BAF4211D78BB97B62909622 /* ImageGalleryLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageGalleryLayout.swift; sourceTree = "<group>"; };
+		3F176345388B30294FC3B1F8F9531F24 /* TopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		40420449021130378644713626482885 /* ImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImagePicker-dummy.m"; sourceTree = "<group>"; };
+		435E2C753CC6BA3978FEFFF08849A5C1 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		4B45FBD832567255AC60672C32C49335 /* BottomContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BottomContainerView.swift; sourceTree = "<group>"; };
+		4C3FBD59FAEA5FE64585B08AFFBA2218 /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Source/LocationManager.swift; sourceTree = "<group>"; };
+		4D3000EB55BAE1962CEBA308ABA13AD6 /* CameraMan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraMan.swift; sourceTree = "<group>"; };
+		4E97BB8C7BED021CBE2A512E409A22F4 /* Pods-ImagePickerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		521DAFFDAE0193FFB6B4B6D9719276D0 /* Pods-ImagePickerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerDemo-Info.plist"; sourceTree = "<group>"; };
+		5358AB43A42BF0F90AA3EFFF88C87C28 /* Pods-ImagePickerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePickerDemo-umbrella.h"; sourceTree = "<group>"; };
+		5AE9B0CB2DC90061ADFB810B8EC46360 /* ImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImagePicker.debug.xcconfig; sourceTree = "<group>"; };
+		5B146953827F8F553766FAA9D70B307F /* Pods-ImagePickerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerDemo-dummy.m"; sourceTree = "<group>"; };
+		5BB4919B4C7097FE268E5BF7BDDC9DD7 /* ImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ImagePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		643B3127CD8E47ED653DE487FE25E474 /* ImageGalleryViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewDataSource.swift; sourceTree = "<group>"; };
+		74B7627E47A1F9BE606E2291BD04B3D0 /* Pods-ImagePickerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImagePickerDemo.modulemap"; sourceTree = "<group>"; };
+		89DF2E749B485D4F0F1C25544671F801 /* ImageGalleryViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewCell.swift; sourceTree = "<group>"; };
+		8CCC3C25753B7D458D99D3BB7A5251F0 /* VideoInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoInfoView.swift; sourceTree = "<group>"; };
+		8F1856828A09E42089E0DF02773D80C1 /* AssetManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetManager.swift; path = Source/AssetManager.swift; sourceTree = "<group>"; };
+		97AA160F23F0CBEDDAF212103E762FC7 /* ImagePicker-ImagePicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ImagePicker-ImagePicker"; path = ImagePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		987CD19BC0CE18F2E00B0AD5ABF8670D /* ImagePicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImagePicker; path = ImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE918639E5DB24E96D3CBA08E4BA577 /* Pods-ImagePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC0C7937C3AA3DD163D91E1C8B803D8 /* ImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		A47AD6317EAC71BC1256844C9EBB4E60 /* ImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImagePicker.release.xcconfig; sourceTree = "<group>"; };
+		A51079BE25D04EA254CB15342E052FB4 /* Pods-ImagePickerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		B723483CA9E428D7C33C1B1D4878C43B /* ImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerController.swift; path = Source/ImagePickerController.swift; sourceTree = "<group>"; };
+		C6624FF51D5F1B7F3036ED4E16E4ACF1 /* StackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		C8DED9A864C51A6FFE2387474D637864 /* Pods-ImagePickerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA0B680C051821D882E755EF98F69698 /* ResourceBundle-ImagePicker-ImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImagePicker-ImagePicker-Info.plist"; sourceTree = "<group>"; };
+		E1F82B7165506D9405463C8A50EDFA3E /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Configuration.swift; sourceTree = "<group>"; };
+		E4BA36750DA64BF95BD0B8A202B61F34 /* Pods-ImagePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E6F9EC3820854C8AC739576251BAEF0C /* ConstraintsSetup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintsSetup.swift; sourceTree = "<group>"; };
+		EFDC8C72086DD71EFA1CE2500C3CB4CA /* ImageStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageStack.swift; sourceTree = "<group>"; };
+		F5A6249CAECF8431742279BF02A1DB1A /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		F988F0133E0D2475CF37A821741F2AD5 /* ImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePicker-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2067457DB9BF3FC9BFE99C90B602174A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0139B5F1C96514CB66C4310AAF1DF5 /* AVFoundation.framework in Frameworks */,
+				D4BB4D928CB44E6CE753BEA14E5AC918 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620BD000C58F7729B1CFAA0A10934699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8716340F2DE04C4DBF7073D7D1F28351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCA9AB7DEB6BE2EA4FF24F5F55FA4DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C685129A34C1E97BBBCA167BE783003 /* ImageGallery */ = {
+			isa = PBXGroup;
+			children = (
+				3B4659FE8BAF4211D78BB97B62909622 /* ImageGalleryLayout.swift */,
+				2C6945B740CCA919BED27FFD94974EB8 /* ImageGalleryView.swift */,
+				89DF2E749B485D4F0F1C25544671F801 /* ImageGalleryViewCell.swift */,
+				643B3127CD8E47ED653DE487FE25E474 /* ImageGalleryViewDataSource.swift */,
+				8CCC3C25753B7D458D99D3BB7A5251F0 /* VideoInfoView.swift */,
+			);
+			name = ImageGallery;
+			path = Source/ImageGallery;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA13D49ADE69D79D70A8B79AAAC38DE9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A447AC0A9A60A871B9BBBA02927B663 /* TopView */ = {
+			isa = PBXGroup;
+			children = (
+				3F176345388B30294FC3B1F8F9531F24 /* TopView.swift */,
+			);
+			name = TopView;
+			path = Source/TopView;
+			sourceTree = "<group>";
+		};
+		58563ADE25362D4520F446C6079C021D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BFE7522122DBE6F79214509B30673F6 /* Pods-ImagePickerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6658858CE73DF792B5F4D440FCF65D1D /* BottomView */ = {
+			isa = PBXGroup;
+			children = (
+				4B45FBD832567255AC60672C32C49335 /* BottomContainerView.swift */,
+				2C8EA3E374AABCC8787656D13A964976 /* ButtonPicker.swift */,
+				EFDC8C72086DD71EFA1CE2500C3CB4CA /* ImageStack.swift */,
+				C6624FF51D5F1B7F3036ED4E16E4ACF1 /* StackView.swift */,
+			);
+			name = BottomView;
+			path = Source/BottomView;
+			sourceTree = "<group>";
+		};
+		69186CB10AD4F46B7B140D2B5CE50816 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09E89321E9E3E76A5BDCB593C63DEC71 /* ImagePicker.modulemap */,
+				40420449021130378644713626482885 /* ImagePicker-dummy.m */,
+				3901980FC7AB9B6A97B729ADFC1CFCC5 /* ImagePicker-Info.plist */,
+				F988F0133E0D2475CF37A821741F2AD5 /* ImagePicker-prefix.pch */,
+				9DC0C7937C3AA3DD163D91E1C8B803D8 /* ImagePicker-umbrella.h */,
+				5AE9B0CB2DC90061ADFB810B8EC46360 /* ImagePicker.debug.xcconfig */,
+				A47AD6317EAC71BC1256844C9EBB4E60 /* ImagePicker.release.xcconfig */,
+				DA0B680C051821D882E755EF98F69698 /* ResourceBundle-ImagePicker-ImagePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Demo/ImagePickerDemo/Pods/Target Support Files/ImagePicker";
+			sourceTree = "<group>";
+		};
+		7DB9C7B9F7DBA308C98ABC21CB6092FA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5BB4919B4C7097FE268E5BF7BDDC9DD7 /* ImagePicker.podspec */,
+				435E2C753CC6BA3978FEFFF08849A5C1 /* LICENSE.md */,
+				1046E6CCAA1573A1AFC51DBEDA04166A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8680B933E856054F5B9729C320D26231 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				8F1856828A09E42089E0DF02773D80C1 /* AssetManager.swift */,
+				E1F82B7165506D9405463C8A50EDFA3E /* Configuration.swift */,
+				21D63F6AE5B937F175302626EF38CFD2 /* Helper.swift */,
+				B723483CA9E428D7C33C1B1D4878C43B /* ImagePickerController.swift */,
+				4C3FBD59FAEA5FE64585B08AFFBA2218 /* LocationManager.swift */,
+				6658858CE73DF792B5F4D440FCF65D1D /* BottomView */,
+				E69A7ABDC770B46938BF98830D18A2AB /* CameraView */,
+				9E882F3BBE5BA70C42C48E215605A58A /* Extensions */,
+				0C685129A34C1E97BBBCA167BE783003 /* ImageGallery */,
+				7DB9C7B9F7DBA308C98ABC21CB6092FA /* Pod */,
+				69186CB10AD4F46B7B140D2B5CE50816 /* Support Files */,
+				4A447AC0A9A60A871B9BBBA02927B663 /* TopView */,
+			);
+			name = ImagePicker;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		9BFE7522122DBE6F79214509B30673F6 /* Pods-ImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74B7627E47A1F9BE606E2291BD04B3D0 /* Pods-ImagePickerDemo.modulemap */,
+				C8DED9A864C51A6FFE2387474D637864 /* Pods-ImagePickerDemo-acknowledgements.markdown */,
+				4E97BB8C7BED021CBE2A512E409A22F4 /* Pods-ImagePickerDemo-acknowledgements.plist */,
+				5B146953827F8F553766FAA9D70B307F /* Pods-ImagePickerDemo-dummy.m */,
+				A51079BE25D04EA254CB15342E052FB4 /* Pods-ImagePickerDemo-frameworks.sh */,
+				521DAFFDAE0193FFB6B4B6D9719276D0 /* Pods-ImagePickerDemo-Info.plist */,
+				5358AB43A42BF0F90AA3EFFF88C87C28 /* Pods-ImagePickerDemo-umbrella.h */,
+				9BE918639E5DB24E96D3CBA08E4BA577 /* Pods-ImagePickerDemo.debug.xcconfig */,
+				E4BA36750DA64BF95BD0B8A202B61F34 /* Pods-ImagePickerDemo.release.xcconfig */,
+			);
+			name = "Pods-ImagePickerDemo";
+			path = "Target Support Files/Pods-ImagePickerDemo";
+			sourceTree = "<group>";
+		};
+		9E882F3BBE5BA70C42C48E215605A58A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E6F9EC3820854C8AC739576251BAEF0C /* ConstraintsSetup.swift */,
+			);
+			name = Extensions;
+			path = Source/Extensions;
+			sourceTree = "<group>";
+		};
+		C2C6E39F3CC8CC0C548886B6114BB7F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				987CD19BC0CE18F2E00B0AD5ABF8670D /* ImagePicker */,
+				97AA160F23F0CBEDDAF212103E762FC7 /* ImagePicker-ImagePicker */,
+				33471595B2BFAC8EF18955DAC46AE969 /* Pods-ImagePickerDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA13D49ADE69D79D70A8B79AAAC38DE9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2689EA712E5D78CDDF35E7B1BD8994B6 /* AVFoundation.framework */,
+				2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F972A1C5F72652B726383A743CADD877 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				C2C6E39F3CC8CC0C548886B6114BB7F2 /* Products */,
+				58563ADE25362D4520F446C6079C021D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E69A7ABDC770B46938BF98830D18A2AB /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				4D3000EB55BAE1962CEBA308ABA13AD6 /* CameraMan.swift */,
+				F5A6249CAECF8431742279BF02A1DB1A /* CameraView.swift */,
+			);
+			name = CameraView;
+			path = Source/CameraView;
+			sourceTree = "<group>";
+		};
+		F972A1C5F72652B726383A743CADD877 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8680B933E856054F5B9729C320D26231 /* ImagePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11370304D07B86BF4935D7D5A612503A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743ED1DCEC16DC2E7FAD8FBDD276EC8F /* ImagePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C344835067C2AC678772312481E0EF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A507E8E144332BA98AC1985E4BCD3FD /* Pods-ImagePickerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01CB8D6098C21E12CE735619344DE81E /* ImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3A25ED647A443AB573ACE0764C0105 /* Build configuration list for PBXNativeTarget "ImagePicker" */;
+			buildPhases = (
+				11370304D07B86BF4935D7D5A612503A /* Headers */,
+				B529E8EA920659F05CA1F3CBE4855303 /* Sources */,
+				2067457DB9BF3FC9BFE99C90B602174A /* Frameworks */,
+				500BEBDB28E9B664CEB4A237CBAE1EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADDBE17AE00EA83341428C5348F1A551 /* PBXTargetDependency */,
+			);
+			name = ImagePicker;
+			productName = ImagePicker;
+			productReference = 987CD19BC0CE18F2E00B0AD5ABF8670D /* ImagePicker */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D77F1600718767BD69A155213C6ED51 /* Pods-ImagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32192CE5AFF0E6A196CF7DEACD9D2375 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerDemo" */;
+			buildPhases = (
+				6C344835067C2AC678772312481E0EF7 /* Headers */,
+				98BD9A997AF55BCF76CE93408388095D /* Sources */,
+				8716340F2DE04C4DBF7073D7D1F28351 /* Frameworks */,
+				9CBD2295CA94227264952B0029C6DA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89CF2E11FBAD2ED5608EF6BABB3FAA32 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImagePickerDemo";
+			productName = Pods_ImagePickerDemo;
+			productReference = 33471595B2BFAC8EF18955DAC46AE969 /* Pods-ImagePickerDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		614D1818852890AC7D3CDF68D512C370 /* ImagePicker-ImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B377ED53F50281AD0B4FF4975D41B64 /* Build configuration list for PBXNativeTarget "ImagePicker-ImagePicker" */;
+			buildPhases = (
+				D6F342E08742AF2C78BD2D76410D613E /* Sources */,
+				620BD000C58F7729B1CFAA0A10934699 /* Frameworks */,
+				781BB66250E1C95350B393215E32FEA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImagePicker-ImagePicker";
+			productName = ImagePicker;
+			productReference = 97AA160F23F0CBEDDAF212103E762FC7 /* ImagePicker-ImagePicker */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C2C6E39F3CC8CC0C548886B6114BB7F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01CB8D6098C21E12CE735619344DE81E /* ImagePicker */,
+				614D1818852890AC7D3CDF68D512C370 /* ImagePicker-ImagePicker */,
+				5D77F1600718767BD69A155213C6ED51 /* Pods-ImagePickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		500BEBDB28E9B664CEB4A237CBAE1EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBD42E84E62842B6EA186CEF24BBF45 /* ImagePicker-ImagePicker in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781BB66250E1C95350B393215E32FEA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBD2295CA94227264952B0029C6DA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98BD9A997AF55BCF76CE93408388095D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAC30B176A420D525F3CC5007A48556 /* Pods-ImagePickerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B529E8EA920659F05CA1F3CBE4855303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA61FFFE1A88E9CE96ED1D316D3B446 /* AssetManager.swift in Sources */,
+				1E0C28B8FF0B169C2BF5B6F4728AA0A3 /* BottomContainerView.swift in Sources */,
+				0EE9CB45A95D2CB62A368EC0C02BE5BD /* ButtonPicker.swift in Sources */,
+				15DB84AB7D4306D3FE8263EDB8715EAF /* CameraMan.swift in Sources */,
+				B0295E6AE6291794C0D57259F53D0DAC /* CameraView.swift in Sources */,
+				F8F5C023314B31AEC3EB64BA4B281F85 /* Configuration.swift in Sources */,
+				01901F24ABE5C87BAF86E7BDDE87272D /* ConstraintsSetup.swift in Sources */,
+				DAC5DC6A70DC35A0C4C3DFA5FF6A8E52 /* Helper.swift in Sources */,
+				6AA545CAC011A808D6A89143007A1E44 /* ImageGalleryLayout.swift in Sources */,
+				92FCB8BA4AFE236E61D7474B91F67FD4 /* ImageGalleryView.swift in Sources */,
+				CE2F10B4F20D68D68F1790002F9E889B /* ImageGalleryViewCell.swift in Sources */,
+				23983ACEF40E1039054D6D5206A70AD7 /* ImageGalleryViewDataSource.swift in Sources */,
+				CB2FB2DD37B3AA49204E7F15D1CC5C29 /* ImagePicker-dummy.m in Sources */,
+				CA7715573551119FF5443A5FA8F4B07E /* ImagePickerController.swift in Sources */,
+				3C55AFF31F06CCCA9302ACB57A2DD0C1 /* ImageStack.swift in Sources */,
+				466EAEA5D0D31E859164CA7B806507B1 /* LocationManager.swift in Sources */,
+				A9FF2B21981C770D9F67307EFD7D54E8 /* StackView.swift in Sources */,
+				A0A879D869577FD8B182D89C6678118A /* TopView.swift in Sources */,
+				8E06B456E6E0017A3EE89D98B22A4CEA /* VideoInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F342E08742AF2C78BD2D76410D613E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89CF2E11FBAD2ED5608EF6BABB3FAA32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImagePicker;
+			target = 01CB8D6098C21E12CE735619344DE81E /* ImagePicker */;
+			targetProxy = F53A16D5CC05D35156BB7A7DDACF7EDF /* PBXContainerItemProxy */;
+		};
+		ADDBE17AE00EA83341428C5348F1A551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ImagePicker-ImagePicker";
+			target = 614D1818852890AC7D3CDF68D512C370 /* ImagePicker-ImagePicker */;
+			targetProxy = 77C77A85FB5CDFAC9C6C01C9DDA5B011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21302220AA8668082E71583ECE31B7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47AD6317EAC71BC1256844C9EBB4E60 /* ImagePicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImagePicker/ImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImagePicker/ImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = ImagePicker;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23E254DF029E4FF548CA870227CF9009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3C399D5595AA98D83997402FD0389B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE918639E5DB24E96D3CBA08E4BA577 /* Pods-ImagePickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickerDemo/Pods-ImagePickerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickerDemo/Pods-ImagePickerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57F5390C26CAC63BC7DC9F3A897AD41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE9B0CB2DC90061ADFB810B8EC46360 /* ImagePicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImagePicker/ImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImagePicker/ImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = ImagePicker;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6141443C628AE93E6A5471A0AABBDCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE9B0CB2DC90061ADFB810B8EC46360 /* ImagePicker.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImagePicker";
+				IBSC_MODULE = ImagePicker;
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ResourceBundle-ImagePicker-ImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AA83A645228E0ADEC326FF9A3B9D0E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4BA36750DA64BF95BD0B8A202B61F34 /* Pods-ImagePickerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickerDemo/Pods-ImagePickerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickerDemo/Pods-ImagePickerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B78068E4195CEC7884BBCAFD49EA45C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E1CC81E7DB81784053CFD3260CCD28F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47AD6317EAC71BC1256844C9EBB4E60 /* ImagePicker.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImagePicker";
+				IBSC_MODULE = ImagePicker;
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ResourceBundle-ImagePicker-ImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32192CE5AFF0E6A196CF7DEACD9D2375 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C399D5595AA98D83997402FD0389B8F /* Debug */,
+				AA83A645228E0ADEC326FF9A3B9D0E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E254DF029E4FF548CA870227CF9009 /* Debug */,
+				B78068E4195CEC7884BBCAFD49EA45C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B377ED53F50281AD0B4FF4975D41B64 /* Build configuration list for PBXNativeTarget "ImagePicker-ImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6141443C628AE93E6A5471A0AABBDCD3 /* Debug */,
+				E1CC81E7DB81784053CFD3260CCD28F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3A25ED647A443AB573ACE0764C0105 /* Build configuration list for PBXNativeTarget "ImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F5390C26CAC63BC7DC9F3A897AD41C /* Debug */,
+				21302220AA8668082E71583ECE31B7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

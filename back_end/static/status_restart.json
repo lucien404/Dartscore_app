@@ -1,0 +1,23 @@
+{
+  "players": [
+    {
+      "name": "player1",
+      "rounds": [
+        {
+          "pictureId": null,
+          "points": []
+        }
+      ]
+    },
+    {
+      "name": "player2",
+      "rounds": [
+        {
+          "pictureId": null,
+          "points": []
+        }
+      ]
+    }
+  ]
+}
+
